@@ -1,0 +1,5 @@
+altura = float(input('digite a altura: '))
+largura = float(input('digite a largura: '))
+mult = altura * largura
+litros = mult/2
+print('A area da parede é de {},a quantidade de tinta para pintar ela é de {}'.format(mult,litros))
