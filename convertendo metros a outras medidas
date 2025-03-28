@@ -1,0 +1,8 @@
+medida = float(input('escreva uma distância em metros: '))
+cm= medida*100
+mm= medida*1000
+dm = medida*10
+dam = medida/10
+hm = medida/100
+km = medida/1000
+print(f'a mediade de {medida} corresponde a {km}km, a {hm}hm, a {dam}dam, a {dm}dm, a {cm}cm, a {mm}mm ')
