@@ -1,0 +1,5 @@
+din = float(input('quanto dinheiro você tem?:R$ '))
+dolar = din/3.27
+iene = din*26.34
+euro = din*0.1613
+print('você pode ter ${:.2f} e {:.2f} em iene e em euro {:.2f}'. format(dolar, iene, euro))
