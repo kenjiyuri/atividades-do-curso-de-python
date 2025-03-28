@@ -1,0 +1,5 @@
+salar = float(input('coloque seu salário: '))
+aument = salar*0.15
+soma = salar+ aument
+print('o seu salario com o novo aumento fica {}'.format(soma))
+
