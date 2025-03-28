@@ -1,0 +1,3 @@
+produto = float(input('coloque o preco do produto: '))
+desc = produto - (produto * 0.05)
+print('o produto com o desconto fica {:.2f}'.format(desc))
